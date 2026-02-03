@@ -1,0 +1,213 @@
+body {
+  user-select: none;
+}
+main,
+footer,
+header {
+  background-color: #f7f5f5;
+}
+
+.header {
+  background-image: url(img/banner.jpg);
+  border-bottom: 10px solid #9df2f2;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.menu li a:hover {
+  opacity: 50%;
+  border-bottom: 5px solid white;
+}
+.chuTo {
+  color: White;
+  font-size: 23px;
+  display: flex;
+  align-items: center; /*theo truc doc*/
+  justify-content: center; /*theo truc ngang*/
+}
+.chuTo :hover {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.logo {
+  display: flex;
+  color: white;
+  font-size: 20px;
+}
+.trangchu {
+  text-decoration: none;
+}
+
+div#logovaten {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.gioiThieuBody {
+  border: 1px dashed #9df2f2;
+  margin-bottom: 0px;
+}
+.gioiThieuBody figure {
+  float: left;
+}
+.gioiThieuBody p {
+  font-size: 30px;
+  text-align: left;
+  line-height: 1.65;
+}
+img#avt {
+  width: 500px;
+  border: 2.5px solid #9df2f2;
+  padding: 0.5px;
+}
+figure#khang {
+  text-align: center;
+}
+figure#khang figcaption {
+  font-size: 35px;
+  font-style: italic;
+  margin-top: 6%;
+  text-align: center;
+  text-decoration: underline;
+}
+.gioiThieuBody::after {
+  /*chan float ben tren*/
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.credit {
+  border: 5px solid #9df2f2;
+  text-align: center;
+  background-color: #9df2f2;
+  margin-bottom: 0;
+}
+
+.vtNgheNghiep {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  border: 1px dashed #9df2f2;
+  padding: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.congViec p {
+  font-size: 30px;
+}
+.congViec ol li {
+  font-size: 24.5px;
+}
+.congViec ol {
+  line-height: 50px;
+  text-align: left;
+}
+/* .danhSachMucTieu .BlockMucTieu:hover {
+  background-color: #c7c5c3;
+} */
+.BlockMucTieu .TitleMucTieu:hover {
+  background-color: white;
+  text-transform: uppercase;
+  border: 2px solid gray;
+}
+.BlockMucTieu .MucTieuSmart div:hover {
+  background-color: white;
+  text-transform: uppercase;
+  border: 2px solid gray;
+}
+.BlockMucTieu .TitleMucTieu {
+  font-size: 30px;
+}
+.BlockMucTieu .MucTieuSmart div {
+  font-size: 25px;
+}
+.TitleKeHoach {
+  font-size: 30px;
+  font-weight: bold;
+}
+.TitleKeHoach:hover {
+  text-transform: uppercase;
+  background-color: white;
+  border: 2px solid gray;
+}
+.who {
+  color: red;
+  font-weight: bold;
+}
+.step {
+  font-weight: bold;
+}
+.ChiTietKeHoach pre {
+  line-height: 1.6;
+  font-family: inherit;
+}
+.ChiTietKeHoach {
+  font-size: 20px;
+}
+.ChiTietKeHoach .step {
+  font-size: 22px;
+}
+.ChiTietKeHoach .who {
+  font-size: 22px;
+}
+.EX_sp:hover {
+  background-color: white;
+  border: 2px solid gray;
+}
+.EX_des:hover {
+  background-color: white;
+  border: 2px solid gray;
+}
+.EX_title:hover {
+  background-color: white;
+  border: 2px solid gray;
+}
+.EX_des {
+  line-height: 1.6;
+  font-size: 19px;
+}
+.EX_sp {
+  font-size: 25px;
+}
+.EX_title {
+  font-size: 30px;
+}
+.TT {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.LienLac {
+  margin-right: 250px;
+  text-align: left;
+}
+.map {
+  margin-left: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 20px;
+}
+#LL {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.LienLac p {
+  font-size: 25px;
+}
